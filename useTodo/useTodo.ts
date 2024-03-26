@@ -1,6 +1,5 @@
 import { useEffect, useReducer } from 'react';
-import { Todo } from '../08-useReducer/TodoList';
-import { Action, todoReducer } from '../08-useReducer/todoReducer';
+import { Action, Todo, todoReducer } from './todoReducer';
 
 type DispatchAction = (action: Action) => void;
 
